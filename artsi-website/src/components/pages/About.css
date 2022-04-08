@@ -1,0 +1,23 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+.owners {
+    border-radius: 5px;
+    border-style: groove;
+    border-color: darkblue;
+    background: white;
+    font-size: 17px;
+    padding: 1em;
+    margin-right: 10px;
+}
+
+.about-text {
+    border-radius: 5px;
+    border-style: groove;
+    border-color: darkblue;
+    font-size: 17px;
+    background: white;
+    padding: 1em;
+}

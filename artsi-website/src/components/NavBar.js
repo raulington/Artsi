@@ -29,7 +29,7 @@ function NavBar() {
         <>
             <nav className="navbar">
                 <div>
-                    <Link to="/" className="navbar-logo">
+                    <Link to="/home" className="navbar-logo">
                         <img src={logo} alt="Logo" style={imgStyle}/>
                     </Link>
                 </div>
@@ -43,8 +43,8 @@ function NavBar() {
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/learn' className='nav-links' onClick={closeMobileMenu}>
-                            Learn
+                        <Link to='/practice' className='nav-links' onClick={closeMobileMenu}>
+                            Practice
                         </Link>
                     </li>
                     <li className='nav-item'>
